@@ -1,17 +1,17 @@
 {
 	"name": "slinv",
+	"version": "1.0.0",
 	"type": "module",
 	"main": "./index.js",
 	"bin": {
-		"oleh-global-module": "./index.js"
+		"slinv": "./index.js"
 	},
-	"preferGlobal": true,
-	"packageManager": "yarn@4.1.1",
+	"packageManager": "npm@10.8.2",
 	"dependencies": {
 		"@inquirer/prompts": "^5.3.8"
 	},
 	"volta": {
 		"node": "20.16.0",
-		"yarn": "4.4.0"
+		"npm": "10.8.2"
 	}
 }

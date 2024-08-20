@@ -3,7 +3,7 @@
 install:
 
 ```bash
-volta install slinv
+volta install @wildmolasses/slinv
 ```
 
 usage:
