@@ -1,34 +1,17 @@
 {
-	"name": "unicorn-fun",
-	"version": "0.0.0",
-	"description": "My awesome module",
-	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
-	"funding": "https://github.com/sponsors/YOUR-GITHUB-USERNAME",
-	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
-	},
+	"name": "slinv",
 	"type": "module",
-	"exports": "./index.js",
-	"sideEffects": false,
-	"engines": {
-		"node": ">=18"
+	"main": "./index.js",
+	"bin": {
+		"oleh-global-module": "./index.js"
 	},
-	"scripts": {
-		"test": "xo && ava"
+	"preferGlobal": true,
+	"packageManager": "yarn@4.1.1",
+	"dependencies": {
+		"@inquirer/prompts": "^5.3.8"
 	},
-	"files": [
-		"index.js"
-	],
-	"keywords": [
-		"unicorn",
-		"fun"
-	],
-	"dependencies": {},
-	"devDependencies": {
-		"ava": "^6.1.2",
-		"xo": "^0.58.0"
+	"volta": {
+		"node": "20.16.0",
+		"yarn": "4.4.0"
 	}
 }
